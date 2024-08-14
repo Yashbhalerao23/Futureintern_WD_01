@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #3F3F3F;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: #DCD1DE;
+    color: #090909;
+    padding: 1em 0;
+}
+
+.header .logo {
+    float: left;
+    margin: 0;
+}
+
+.header nav {
+   float: right;
+  
+}
+
+.header .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav-list li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.header .nav-list li a {
+    color: #000000;
+    font-size:18px;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+
+.header .nav-list li a:hover{
+    border-bottom: 4px solid #000000;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://wallpapercave.com/wp/wp7050216.jpg ')no-repeat center center/cover;
+    color: #fff;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #313131;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 2em 0;
+    background: #FFFFFF;
+}
+
+.destinations h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.destinations .grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destinations .box {
+    background: #FFFFFF;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.destinations .box img {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 1em;
+}
+
+/* place section*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.gride {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.box {
+  flex-basis: 30%; 
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  background-color: #F4F4F4;
+  border-radius: 8px;
+}
+
+.box:hover {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  width: 250px;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.box h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #000000;
+}
+
+.box p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+/* Packages Section */
+.packages {
+    padding: 2em 0;
+}
+
+.packages h2{
+    text-align: center;
+  
+}
+
+.packages .grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.packages .box {
+    background: #f4f4f4;
+    padding: 1em;
+    text-align: center;
+    flex-basis: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.packages .box h3 {
+    margin-bottom: 1em;
+}
+
+.packages .btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 2em 0;
+    background: #fff;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.about-us p {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .social-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.footer .social-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer .social-list li a {
+    color: #fff;
+    text-decoration: none;
+}
